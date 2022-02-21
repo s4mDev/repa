@@ -1,0 +1,38 @@
+.form {
+    &__group {
+       margin-bottom: rem(20px);
+    }
+}
+
+%agree {
+    input {
+        display: none;
+        &:checked + label::before {
+            background: #18476B url(../../assets/img/checkbox.svg) center no-repeat;
+        }
+    }
+    label {
+        font-size: 12px;
+        line-height: 36px;
+        color: #000;
+        padding-left: 27px;
+        a {
+            color: #0000FF;
+            text-decoration: none;
+        }
+        position: relative;
+        &::before {
+            content: '';
+            width: 16px;
+            height: 16px;
+            display: inline-block;
+            background: #18476B;
+            border-radius: 5px;
+            position: absolute; 
+            left: 0;
+            cursor: pointer;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+}

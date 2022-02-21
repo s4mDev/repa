@@ -1,0 +1,1402 @@
+<%= require('@parts/header.ejs')({classHeader: 'header_default'}) %>
+
+  <main class="homepage" id="root">
+        <section class="first">
+            <div class="container">
+                <h1 class="first__title">
+                    <span class="first__title-date">
+                        26 октября
+                    </span>
+                    Власть
+                    Девелопер
+                    Банк
+                    <span class="first__title-descr">
+                        Федеральный
+                        девелоперский форум
+                    </span>
+                </h1>
+                <button class="first__btn popup-btn" data-popup="modal-thank">
+                    Зарегистрироваться
+                </button>
+            </div>
+        </section>
+        <section class="sponsors">
+            <div class="container">
+                <div class="sponsors__row">
+                    <div class="sponsors__col">
+                        <div class="sponsors__title">
+                            Организатор
+                        </div>
+                        <div class="sponsors__logos">
+                            <img src="<%=require('@img/sponsor-1.svg') %>" alt="">
+                        </div>
+                    </div>
+                    <div class="sponsors__col">
+                        <div class="sponsors__title">
+                            При поддержке
+                        </div>
+                        <div class="sponsors__logos">
+                            <img src="<%=require('@img/sponsor-2.svg') %>" alt="">
+                            <img src="<%=require('@img/sponsor-3.svg') %>" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="about__row">
+                    <div class="about__content">
+                        <h2 class="about__title">
+                            О форуме
+                        </h2>
+                        <p class="about__txt">
+                            В форуме принимают участие представители власти и банковских структур, руководители девелоперских и строительных компаний, собственники жилой недвижимости со всей России, а также стран СНГ.
+                        </p>
+                        <p class="about__txt">
+                            Форум – площадка для объединения и обмена опытом власти, девелоперов и банков.
+                        </p>
+                    </div>
+                    <div class="about__count">
+                        <div class="about__count-item">
+                            <div class="about__count-count">
+                                600+
+                            </div>
+                            <div class="about__count-title">
+                                участников 
+                            </div>
+                        </div>
+                        <div class="about__count-item">
+                            <div class="about__count-count">
+                                60+
+                            </div>
+                            <div class="about__count-title">
+                                городов 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="forum">
+            <div class="container">
+                <h2 class="forum__title">
+                    Программа форума
+                </h2>
+                <div class="forum__wrapper">
+                    <div class="forum__nav-wrapper">
+                        <ul class="forum__nav">
+                            <li class="forum__nav-item active">
+                                Панельная дискуссия
+                                <span>
+                                    10:00 - 12:00
+                                </span>
+                            </li>
+                            <li class="forum__nav-item">
+                                Основная сессия
+                                <span>
+                                    12:30 - 14:30
+                                </span>
+                            </li>
+                            <li class="forum__nav-item">
+                                Коммерческая недвижимость
+                                <span>
+                                    15:00 - 17:00
+                                </span>
+                            </li>
+                            <li class="forum__nav-item">
+                                Жилая недвижимость
+                                <span>
+                                    15:00 - 17:00
+                                </span>
+                            </li>
+                            <li class="forum__nav-item">
+                                Вечерняя программа
+                                <span>
+                                    17.30 - 20.00
+                                </span>
+                            </li>
+                            <li class="forum__nav-item">
+                                Проперти тур
+                                <span>
+                                    20.30 - 21.00
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="forum__block active">
+                        <div class="forum__item">
+                            <div class="forum__time">
+                                12:30 - 14:30
+                            </div>
+                            <div class="forum__content">
+                                <h3 class="forum__item-title">
+                                    КРТ: невозможность существования жилья без коммерции и коммерции без жилья
+                                </h3>
+                                <ul class="forum__list">
+                                    <li class="forum__list-item">
+                                        Коммерческие элементы в жилых проектах как добавочная стоимость
+                                    </li>
+                                    <li class="forum__list-item">
+                                        Офисы vs коворкинги и рабочие станции
+                                    </li>
+                                    <li class="forum__list-item">
+                                        Торговые площади vs онлайн-шопинг и E-commerce
+                                    </li>
+                                    <li class="forum__list-item">
+                                        Потребность покупателей в продуктах нового формата
+                                    </li>
+                                    <li class="forum__list-item">
+                                        Социальная инфраструктура как неотъемлемая часть проекта
+                                    </li>
+                                </ul>
+                                <h4 class="forum__subtitle">
+                                    Спикеры
+                                </h4>
+                                <div class="forum__speaker-wrapper">
+                                    <div class="forum__speaker">
+                                        <div class="forum__speaker-image">
+                                            <img src="<%=require('@img/forum-1.jpg') %>" alt="">
+                                        </div>
+                                        <div class="forum__speaker-content">
+                                            <span class="forum__speaker-name">
+                                                Мария Синичич
+                                            </span>
+                                            <p class="forum__speaker-position">
+                                                Директор Департамента комплексного развития территорий
+                                            </p>
+                                            <p class="forum__speaker-descr">
+                                                КРТ: невозможность существования жилья без коммерции и коммерции без жилья
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="forum__speaker">
+                                        <div class="forum__speaker-image">
+                                            <img src="<%=require('@img/forum-1.jpg') %>" alt="">
+                                        </div>
+                                        <div class="forum__speaker-content">
+                                            <span class="forum__speaker-name">
+                                                Мария Синичич
+                                            </span>
+                                            <p class="forum__speaker-position">
+                                                Директор Департамента комплексного развития территорий
+                                            </p>
+                                            <p class="forum__speaker-descr">
+                                                КРТ: невозможность существования жилья без коммерции и коммерции без жилья
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="forum__speaker">
+                                        <div class="forum__speaker-image">
+                                            <img src="<%=require('@img/forum-1.jpg') %>" alt="">
+                                        </div>
+                                        <div class="forum__speaker-content">
+                                            <span class="forum__speaker-name">
+                                                Мария Синичич
+                                            </span>
+                                            <p class="forum__speaker-position">
+                                                Директор Департамента комплексного развития территорий
+                                            </p>
+                                            <p class="forum__speaker-descr">
+                                                КРТ: невозможность существования жилья без коммерции и коммерции без жилья
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="forum__item">
+                            <div class="forum__time">
+                                14:30 - 15:30
+                            </div>
+                            <div class="forum__content">
+                                <h3 class="forum__item-title">
+                                    Кофе-брейк
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="forum__block">
+                        <div class="forum__item">
+                            <div class="forum__time">
+                                12:30 - 14:30
+                            </div>
+                            <div class="forum__content">
+                                <h3 class="forum__item-title">
+                                    КРТ: невозможность существования жилья без коммерции и коммерции без жилья
+                                </h3>
+                                <ul class="forum__list">
+                                    <li class="forum__list-item">
+                                        Коммерческие элементы в жилых проектах как добавочная стоимость
+                                    </li>
+                                    <li class="forum__list-item">
+                                        Офисы vs коворкинги и рабочие станции
+                                    </li>
+                                    <li class="forum__list-item">
+                                        Торговые площади vs онлайн-шопинг и E-commerce
+                                    </li>
+                                    <li class="forum__list-item">
+                                        Потребность покупателей в продуктах нового формата
+                                    </li>
+                                    <li class="forum__list-item">
+                                        Социальная инфраструктура как неотъемлемая часть проекта
+                                    </li>
+                                </ul>
+                                <h4 class="forum__subtitle">
+                                    Спикеры
+                                </h4>
+                                <div class="forum__speaker-wrapper">
+                                    <div class="forum__speaker">
+                                        <div class="forum__speaker-image">
+                                            <img src="<%=require('@img/forum-1.jpg') %>" alt="">
+                                        </div>
+                                        <div class="forum__speaker-content">
+                                            <span class="forum__speaker-name">
+                                                Мария Синичич
+                                            </span>
+                                            <p class="forum__speaker-position">
+                                                Директор Департамента комплексного развития территорий
+                                            </p>
+                                            <p class="forum__speaker-descr">
+                                                КРТ: невозможность существования жилья без коммерции и коммерции без жилья
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="forum__speaker">
+                                        <div class="forum__speaker-image">
+                                            <img src="<%=require('@img/forum-1.jpg') %>" alt="">
+                                        </div>
+                                        <div class="forum__speaker-content">
+                                            <span class="forum__speaker-name">
+                                                Мария Синичич
+                                            </span>
+                                            <p class="forum__speaker-position">
+                                                Директор Департамента комплексного развития территорий
+                                            </p>
+                                            <p class="forum__speaker-descr">
+                                                КРТ: невозможность существования жилья без коммерции и коммерции без жилья
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="forum__speaker">
+                                        <div class="forum__speaker-image">
+                                            <img src="<%=require('@img/forum-1.jpg') %>" alt="">
+                                        </div>
+                                        <div class="forum__speaker-content">
+                                            <span class="forum__speaker-name">
+                                                Мария Синичич
+                                            </span>
+                                            <p class="forum__speaker-position">
+                                                Директор Департамента комплексного развития территорий
+                                            </p>
+                                            <p class="forum__speaker-descr">
+                                                КРТ: невозможность существования жилья без коммерции и коммерции без жилья
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="forum__item">
+                            <div class="forum__time">
+                                14:30 - 15:30
+                            </div>
+                            <div class="forum__content">
+                                <h3 class="forum__item-title">
+                                    Кофе-брейк
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="forum__block">
+                        <div class="forum__item">
+                            <div class="forum__time">
+                                12:30 - 14:30
+                            </div>
+                            <div class="forum__content">
+                                <h3 class="forum__item-title">
+                                    КРТ: невозможность существования жилья без коммерции и коммерции без жилья
+                                </h3>
+                                <ul class="forum__list">
+                                    <li class="forum__list-item">
+                                        Коммерческие элементы в жилых проектах как добавочная стоимость
+                                    </li>
+                                    <li class="forum__list-item">
+                                        Офисы vs коворкинги и рабочие станции
+                                    </li>
+                                    <li class="forum__list-item">
+                                        Торговые площади vs онлайн-шопинг и E-commerce
+                                    </li>
+                                    <li class="forum__list-item">
+                                        Потребность покупателей в продуктах нового формата
+                                    </li>
+                                    <li class="forum__list-item">
+                                        Социальная инфраструктура как неотъемлемая часть проекта
+                                    </li>
+                                </ul>
+                                <h4 class="forum__subtitle">
+                                    Спикеры
+                                </h4>
+                                <div class="forum__speaker-wrapper">
+                                    <div class="forum__speaker">
+                                        <div class="forum__speaker-image">
+                                            <img src="<%=require('@img/forum-1.jpg') %>" alt="">
+                                        </div>
+                                        <div class="forum__speaker-content">
+                                            <span class="forum__speaker-name">
+                                                Мария Синичич
+                                            </span>
+                                            <p class="forum__speaker-position">
+                                                Директор Департамента комплексного развития территорий
+                                            </p>
+                                            <p class="forum__speaker-descr">
+                                                КРТ: невозможность существования жилья без коммерции и коммерции без жилья
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="forum__speaker">
+                                        <div class="forum__speaker-image">
+                                            <img src="<%=require('@img/forum-1.jpg') %>" alt="">
+                                        </div>
+                                        <div class="forum__speaker-content">
+                                            <span class="forum__speaker-name">
+                                                Мария Синичич
+                                            </span>
+                                            <p class="forum__speaker-position">
+                                                Директор Департамента комплексного развития территорий
+                                            </p>
+                                            <p class="forum__speaker-descr">
+                                                КРТ: невозможность существования жилья без коммерции и коммерции без жилья
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="forum__speaker">
+                                        <div class="forum__speaker-image">
+                                            <img src="<%=require('@img/forum-1.jpg') %>" alt="">
+                                        </div>
+                                        <div class="forum__speaker-content">
+                                            <span class="forum__speaker-name">
+                                                Мария Синичич
+                                            </span>
+                                            <p class="forum__speaker-position">
+                                                Директор Департамента комплексного развития территорий
+                                            </p>
+                                            <p class="forum__speaker-descr">
+                                                КРТ: невозможность существования жилья без коммерции и коммерции без жилья
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="forum__item">
+                            <div class="forum__time">
+                                14:30 - 15:30
+                            </div>
+                            <div class="forum__content">
+                                <h3 class="forum__item-title">
+                                    Кофе-брейк
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="forum__block">
+                        <div class="forum__item">
+                            <div class="forum__time">
+                                12:30 - 14:30
+                            </div>
+                            <div class="forum__content">
+                                <h3 class="forum__item-title">
+                                    КРТ: невозможность существования жилья без коммерции и коммерции без жилья
+                                </h3>
+                                <ul class="forum__list">
+                                    <li class="forum__list-item">
+                                        Коммерческие элементы в жилых проектах как добавочная стоимость
+                                    </li>
+                                    <li class="forum__list-item">
+                                        Офисы vs коворкинги и рабочие станции
+                                    </li>
+                                    <li class="forum__list-item">
+                                        Торговые площади vs онлайн-шопинг и E-commerce
+                                    </li>
+                                    <li class="forum__list-item">
+                                        Потребность покупателей в продуктах нового формата
+                                    </li>
+                                    <li class="forum__list-item">
+                                        Социальная инфраструктура как неотъемлемая часть проекта
+                                    </li>
+                                </ul>
+                                <h4 class="forum__subtitle">
+                                    Спикеры
+                                </h4>
+                                <div class="forum__speaker-wrapper">
+                                    <div class="forum__speaker">
+                                        <div class="forum__speaker-image">
+                                            <img src="<%=require('@img/forum-1.jpg') %>" alt="">
+                                        </div>
+                                        <div class="forum__speaker-content">
+                                            <span class="forum__speaker-name">
+                                                Мария Синичич
+                                            </span>
+                                            <p class="forum__speaker-position">
+                                                Директор Департамента комплексного развития территорий
+                                            </p>
+                                            <p class="forum__speaker-descr">
+                                                КРТ: невозможность существования жилья без коммерции и коммерции без жилья
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="forum__speaker">
+                                        <div class="forum__speaker-image">
+                                            <img src="<%=require('@img/forum-1.jpg') %>" alt="">
+                                        </div>
+                                        <div class="forum__speaker-content">
+                                            <span class="forum__speaker-name">
+                                                Мария Синичич
+                                            </span>
+                                            <p class="forum__speaker-position">
+                                                Директор Департамента комплексного развития территорий
+                                            </p>
+                                            <p class="forum__speaker-descr">
+                                                КРТ: невозможность существования жилья без коммерции и коммерции без жилья
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="forum__speaker">
+                                        <div class="forum__speaker-image">
+                                            <img src="<%=require('@img/forum-1.jpg') %>" alt="">
+                                        </div>
+                                        <div class="forum__speaker-content">
+                                            <span class="forum__speaker-name">
+                                                Мария Синичич
+                                            </span>
+                                            <p class="forum__speaker-position">
+                                                Директор Департамента комплексного развития территорий
+                                            </p>
+                                            <p class="forum__speaker-descr">
+                                                КРТ: невозможность существования жилья без коммерции и коммерции без жилья
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="forum__item">
+                            <div class="forum__time">
+                                14:30 - 15:30
+                            </div>
+                            <div class="forum__content">
+                                <h3 class="forum__item-title">
+                                    Кофе-брейк
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="forum__block">
+                        <div class="forum__item">
+                            <div class="forum__time">
+                                12:30 - 14:30
+                            </div>
+                            <div class="forum__content">
+                                <h3 class="forum__item-title">
+                                    КРТ: невозможность существования жилья без коммерции и коммерции без жилья
+                                </h3>
+                                <ul class="forum__list">
+                                    <li class="forum__list-item">
+                                        Коммерческие элементы в жилых проектах как добавочная стоимость
+                                    </li>
+                                    <li class="forum__list-item">
+                                        Офисы vs коворкинги и рабочие станции
+                                    </li>
+                                    <li class="forum__list-item">
+                                        Торговые площади vs онлайн-шопинг и E-commerce
+                                    </li>
+                                    <li class="forum__list-item">
+                                        Потребность покупателей в продуктах нового формата
+                                    </li>
+                                    <li class="forum__list-item">
+                                        Социальная инфраструктура как неотъемлемая часть проекта
+                                    </li>
+                                </ul>
+                                <h4 class="forum__subtitle">
+                                    Спикеры
+                                </h4>
+                                <div class="forum__speaker-wrapper">
+                                    <div class="forum__speaker">
+                                        <div class="forum__speaker-image">
+                                            <img src="<%=require('@img/forum-1.jpg') %>" alt="">
+                                        </div>
+                                        <div class="forum__speaker-content">
+                                            <span class="forum__speaker-name">
+                                                Мария Синичич
+                                            </span>
+                                            <p class="forum__speaker-position">
+                                                Директор Департамента комплексного развития территорий
+                                            </p>
+                                            <p class="forum__speaker-descr">
+                                                КРТ: невозможность существования жилья без коммерции и коммерции без жилья
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="forum__speaker">
+                                        <div class="forum__speaker-image">
+                                            <img src="<%=require('@img/forum-1.jpg') %>" alt="">
+                                        </div>
+                                        <div class="forum__speaker-content">
+                                            <span class="forum__speaker-name">
+                                                Мария Синичич
+                                            </span>
+                                            <p class="forum__speaker-position">
+                                                Директор Департамента комплексного развития территорий
+                                            </p>
+                                            <p class="forum__speaker-descr">
+                                                КРТ: невозможность существования жилья без коммерции и коммерции без жилья
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="forum__speaker">
+                                        <div class="forum__speaker-image">
+                                            <img src="<%=require('@img/forum-1.jpg') %>" alt="">
+                                        </div>
+                                        <div class="forum__speaker-content">
+                                            <span class="forum__speaker-name">
+                                                Мария Синичич
+                                            </span>
+                                            <p class="forum__speaker-position">
+                                                Директор Департамента комплексного развития территорий
+                                            </p>
+                                            <p class="forum__speaker-descr">
+                                                КРТ: невозможность существования жилья без коммерции и коммерции без жилья
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="forum__item">
+                            <div class="forum__time">
+                                14:30 - 15:30
+                            </div>
+                            <div class="forum__content">
+                                <h3 class="forum__item-title">
+                                    Кофе-брейк
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="forum__block">
+                        <div class="forum__item">
+                            <div class="forum__time">
+                                12:30 - 14:30
+                            </div>
+                            <div class="forum__content">
+                                <h3 class="forum__item-title">
+                                    КРТ: невозможность существования жилья без коммерции и коммерции без жилья
+                                </h3>
+                                <ul class="forum__list">
+                                    <li class="forum__list-item">
+                                        Коммерческие элементы в жилых проектах как добавочная стоимость
+                                    </li>
+                                    <li class="forum__list-item">
+                                        Офисы vs коворкинги и рабочие станции
+                                    </li>
+                                    <li class="forum__list-item">
+                                        Торговые площади vs онлайн-шопинг и E-commerce
+                                    </li>
+                                    <li class="forum__list-item">
+                                        Потребность покупателей в продуктах нового формата
+                                    </li>
+                                    <li class="forum__list-item">
+                                        Социальная инфраструктура как неотъемлемая часть проекта
+                                    </li>
+                                </ul>
+                                <h4 class="forum__subtitle">
+                                    Спикеры
+                                </h4>
+                                <div class="forum__speaker-wrapper">
+                                    <div class="forum__speaker">
+                                        <div class="forum__speaker-image">
+                                            <img src="<%=require('@img/forum-1.jpg') %>" alt="">
+                                        </div>
+                                        <div class="forum__speaker-content">
+                                            <span class="forum__speaker-name">
+                                                Мария Синичич
+                                            </span>
+                                            <p class="forum__speaker-position">
+                                                Директор Департамента комплексного развития территорий
+                                            </p>
+                                            <p class="forum__speaker-descr">
+                                                КРТ: невозможность существования жилья без коммерции и коммерции без жилья
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="forum__speaker">
+                                        <div class="forum__speaker-image">
+                                            <img src="<%=require('@img/forum-1.jpg') %>" alt="">
+                                        </div>
+                                        <div class="forum__speaker-content">
+                                            <span class="forum__speaker-name">
+                                                Мария Синичич
+                                            </span>
+                                            <p class="forum__speaker-position">
+                                                Директор Департамента комплексного развития территорий
+                                            </p>
+                                            <p class="forum__speaker-descr">
+                                                КРТ: невозможность существования жилья без коммерции и коммерции без жилья
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="forum__speaker">
+                                        <div class="forum__speaker-image">
+                                            <img src="<%=require('@img/forum-1.jpg') %>" alt="">
+                                        </div>
+                                        <div class="forum__speaker-content">
+                                            <span class="forum__speaker-name">
+                                                Мария Синичич
+                                            </span>
+                                            <p class="forum__speaker-position">
+                                                Директор Департамента комплексного развития территорий
+                                            </p>
+                                            <p class="forum__speaker-descr">
+                                                КРТ: невозможность существования жилья без коммерции и коммерции без жилья
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="forum__item">
+                            <div class="forum__time">
+                                14:30 - 15:30
+                            </div>
+                            <div class="forum__content">
+                                <h3 class="forum__item-title">
+                                    Кофе-брейк
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="speakers">
+            <div class="container">
+                <h2 class="speakers__title">
+                    Спикеры
+                </h2>
+                <div class="speakers__slider">
+                    <div class="speakers__item popup-btn" data-popup="modal-person">
+                        <div class="speakers__image">
+                            <img src="<%=require('@img/speaker-1.png') %>" alt="">
+                        </div>
+                        <div class="speakers__name">
+                            Боб Ван дер Занде
+                        </div>
+                        <p class="speakers__txt">
+                            Директор Residential Development 
+                            в Metropolitan Region Amsterdam
+                        </p>
+                    </div>
+                    <div class="speakers__item popup-btn" data-popup="modal-person">
+                        <div class="speakers__image">
+                            <img src="<%=require('@img/speaker-2.png') %>" alt="">
+                        </div>
+                        <div class="speakers__name">
+                            Боб Ван дер Занде
+                        </div>
+                        <p class="speakers__txt">
+                            Директор Residential Development 
+                            в Metropolitan Region Amsterdam
+                        </p>
+                    </div>
+                    <div class="speakers__item popup-btn" data-popup="modal-person">
+                        <div class="speakers__image">
+                            <img src="<%=require('@img/speaker-3.png') %>" alt="">
+                        </div>
+                        <div class="speakers__name">
+                            Боб Ван дер Занде
+                        </div>
+                        <p class="speakers__txt">
+                            Директор Residential Development 
+                            в Metropolitan Region Amsterdam
+                        </p>
+                    </div>
+                    <div class="speakers__item popup-btn" data-popup="modal-person">
+                        <div class="speakers__image">
+                            <img src="<%=require('@img/speaker-4.png') %>" alt="">
+                        </div>
+                        <div class="speakers__name">
+                            Боб Ван дер Занде
+                        </div>
+                        <p class="speakers__txt">
+                            Директор Residential Development 
+                            в Metropolitan Region Amsterdam
+                        </p>
+                    </div>
+                    <div class="speakers__item popup-btn" data-popup="modal-person">
+                        <div class="speakers__image">
+                            <img src="<%=require('@img/speaker-2.png') %>" alt="">
+                        </div>
+                        <div class="speakers__name">
+                            Боб Ван дер Занде
+                        </div>
+                        <p class="speakers__txt">
+                            Директор Residential Development 
+                            в Metropolitan Region Amsterdam
+                        </p>
+                    </div>
+                    <div class="speakers__item popup-btn" data-popup="modal-person">
+                        <div class="speakers__image">
+                            <img src="<%=require('@img/speaker-3.png') %>" alt="">
+                        </div>
+                        <div class="speakers__name">
+                            Боб Ван дер Занде
+                        </div>
+                        <p class="speakers__txt">
+                            Директор Residential Development 
+                            в Metropolitan Region Amsterdam
+                        </p>
+                    </div>
+                    <div class="speakers__item popup-btn" data-popup="modal-person">
+                        <div class="speakers__image">
+                            <img src="<%=require('@img/speaker-1.png') %>" alt="">
+                        </div>
+                        <div class="speakers__name">
+                            Боб Ван дер Занде
+                        </div>
+                        <p class="speakers__txt">
+                            Директор Residential Development 
+                            в Metropolitan Region Amsterdam
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="packages">
+            <div class="container">
+                <h2 class="packages__title">
+                    Пакеты участия
+                </h2>
+                <div class="packages__slider">
+                    <div class="packages__item-wrapper">
+                        <div class="packages__item">
+                            <div class="packages__top">
+                                <div class="packages__name">
+                                    Форум
+                                </div>
+                                <div class="packages__date">
+                                    26 октября 
+                                </div>
+                            </div>
+                            <p class="packages__txt">
+                                В форуме принимают участие представители власти и банковских структур, руководители девелоперских и строительных компаний, собственники жилой недвижимости.
+                            </p>
+                            <ul class="packages__list">
+                                <li class="packages__list-item">
+                                    Коммерческие элементы в жилых 
+                                </li>
+                                <li class="packages__list-item">
+                                    Офисы vs коворкинги и рабочие
+                                </li>
+                                <li class="packages__list-item">
+                                    Торговые площади vs онлайн-шопинг 
+                                </li>
+                                <li class="packages__list-item">
+                                    Потребность покупателей в продуктах 
+                                </li>
+                                <li class="packages__list-item">
+                                    Социальная инфраструктура как
+                                </li>
+                            </ul>
+                            <div class="packages__price">
+                                99999 ₽
+                            </div>
+                            <button class="packages__button">
+                                Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="packages__item-wrapper">
+                        <div class="packages__item">
+                            <div class="packages__top">
+                                <div class="packages__name">
+                                    Форум + Property tour
+                                </div>
+                                <div class="packages__date">
+                                    26 октября 
+                                </div>
+                            </div>
+                            <p class="packages__txt">
+                                В форуме принимают участие представители власти и банковских структур, руководители девелоперских и строительных компаний, собственники жилой недвижимости.
+                            </p>
+                            <ul class="packages__list">
+                                <li class="packages__list-item">
+                                    Коммерческие элементы в жилых 
+                                </li>
+                                <li class="packages__list-item">
+                                    Офисы vs коворкинги и рабочие
+                                </li>
+                                <li class="packages__list-item">
+                                    Торговые площади vs онлайн-шопинг 
+                                </li>
+                                <li class="packages__list-item">
+                                    Потребность покупателей в продуктах 
+                                </li>
+                                <li class="packages__list-item">
+                                    Социальная инфраструктура как
+                                </li>
+                            </ul>
+                            <div class="packages__price">
+                                99999 ₽
+                            </div>
+                            <button class="packages__button">
+                                Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="packages__item-wrapper">
+                        <div class="packages__item">
+                            <div class="packages__top">
+                                <div class="packages__name">
+                                    Форум + Property tour <br>
+                                    + Премия
+                                </div>
+                                <div class="packages__date">
+                                    26 октября 
+                                </div>
+                            </div>
+                            <p class="packages__txt">
+                                В форуме принимают участие представители власти и банковских структур, руководители девелоперских и строительных компаний, собственники жилой недвижимости.
+                            </p>
+                            <ul class="packages__list">
+                                <li class="packages__list-item">
+                                    Коммерческие элементы в жилых 
+                                </li>
+                                <li class="packages__list-item">
+                                    Офисы vs коворкинги и рабочие
+                                </li>
+                                <li class="packages__list-item">
+                                    Торговые площади vs онлайн-шопинг 
+                                </li>
+                                <li class="packages__list-item">
+                                    Потребность покупателей в продуктах 
+                                </li>
+                                <li class="packages__list-item">
+                                    Социальная инфраструктура как
+                                </li>
+                            </ul>
+                            <div class="packages__price">
+                                99999 ₽
+                            </div>
+                            <button class="packages__button" disabled>
+                                Продано
+                            </button>
+                        </div>
+                    </div>
+                    <div class="packages__item-wrapper">
+                        <div class="packages__item">
+                            <div class="packages__top">
+                                <div class="packages__name">
+                                    Форум
+                                </div>
+                                <div class="packages__date">
+                                    26 октября 
+                                </div>
+                            </div>
+                            <p class="packages__txt">
+                                В форуме принимают участие представители власти и банковских структур, руководители девелоперских и строительных компаний, собственники жилой недвижимости.
+                            </p>
+                            <ul class="packages__list">
+                                <li class="packages__list-item">
+                                    Коммерческие элементы в жилых 
+                                </li>
+                                <li class="packages__list-item">
+                                    Офисы vs коворкинги и рабочие
+                                </li>
+                                <li class="packages__list-item">
+                                    Торговые площади vs онлайн-шопинг 
+                                </li>
+                                <li class="packages__list-item">
+                                    Потребность покупателей в продуктах 
+                                </li>
+                                <li class="packages__list-item">
+                                    Социальная инфраструктура как
+                                </li>
+                            </ul>
+                            <div class="packages__price">
+                                99999 ₽
+                            </div>
+                            <button class="packages__button">
+                                Купить
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="what">
+            <div class="container">
+                <h2 class="what__title">
+                    Что такое девелоперский форум?
+                </h2>
+                <div class="what__slider">
+                    <div class="what__item-wrapper">
+                        <div class="what__item">
+                            <div class="what__item-col">
+                                <div class="what__item-image"><img src="<%=require('@img/what.jpg') %>" alt=""></div>
+                            </div>
+                            <div class="what__item-content what__item-col">
+                                <h2 class="what__item-title">
+                                    Невозможность существования жилья без коммерции и коммерции
+                                </h2>
+                                <p class="what__item-txt">
+                                    В форуме принимают участие представители власти 
+                                    и банковских структур, руководители девелоперских 
+                                    и строительных компаний, собственники жилой недвижимости со всей России, а также стран СНГ.
+                                    В форуме принимают участие представители власти 
+                                    и банковских структур, руководители девелоперских 
+                                    и строительных компаний, собственники жилой недвижимости со всей России, а также стран СНГ.
+                                </p>
+                                <p class="what__item-txt">
+                                    В форуме принимают участие представители власти 
+                                    и банковских структур, руководители девелоперских 
+                                    и строительных компаний, собственники жилой недвижимости со всей России, а также стран СНГ.
+                                    В форуме принимают участие представители власти 
+                                    и банковских структур, руководители девелоперских 
+                                    и строительных компаний, собственники жилой недвижимости со всей России, а также стран СНГ.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="what__item-wrapper">
+                        <div class="what__item">
+                            <div class="what__item-col">
+                                <div class="what__item-image"><img src="<%=require('@img/what.jpg') %>" alt=""></div>
+                            </div>
+                            <div class="what__item-content what__item-col">
+                                <h2 class="what__item-title">
+                                    Невозможность существования жилья без коммерции и коммерции
+                                </h2>
+                                <p class="what__item-txt">
+                                    В форуме принимают участие представители власти 
+                                    и банковских структур, руководители девелоперских 
+                                    и строительных компаний, собственники жилой недвижимости со всей России, а также стран СНГ.
+                                    В форуме принимают участие представители власти 
+                                    и банковских структур, руководители девелоперских 
+                                    и строительных компаний, собственники жилой недвижимости со всей России, а также стран СНГ.
+                                </p>
+                                <p class="what__item-txt">
+                                    В форуме принимают участие представители власти 
+                                    и банковских структур, руководители девелоперских 
+                                    и строительных компаний, собственники жилой недвижимости со всей России, а также стран СНГ.
+                                    В форуме принимают участие представители власти 
+                                    и банковских структур, руководители девелоперских 
+                                    и строительных компаний, собственники жилой недвижимости со всей России, а также стран СНГ.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="what__item-wrapper">
+                        <div class="what__item">
+                            <div class="what__item-col">
+                                <div class="what__item-image"><img src="<%=require('@img/what.jpg') %>" alt=""></div>
+                            </div>
+                            <div class="what__item-content what__item-col">
+                                <h2 class="what__item-title">
+                                    Невозможность существования жилья без коммерции и коммерции
+                                </h2>
+                                <p class="what__item-txt">
+                                    В форуме принимают участие представители власти 
+                                    и банковских структур, руководители девелоперских 
+                                    и строительных компаний, собственники жилой недвижимости со всей России, а также стран СНГ.
+                                    В форуме принимают участие представители власти 
+                                    и банковских структур, руководители девелоперских 
+                                    и строительных компаний, собственники жилой недвижимости со всей России, а также стран СНГ.
+                                </p>
+                                <p class="what__item-txt">
+                                    В форуме принимают участие представители власти 
+                                    и банковских структур, руководители девелоперских 
+                                    и строительных компаний, собственники жилой недвижимости со всей России, а также стран СНГ.
+                                    В форуме принимают участие представители власти 
+                                    и банковских структур, руководители девелоперских 
+                                    и строительных компаний, собственники жилой недвижимости со всей России, а также стран СНГ.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="what__item-wrapper">
+                        <div class="what__item">
+                            <div class="what__item-col">
+                                <div class="what__item-image"><img src="<%=require('@img/what.jpg') %>" alt=""></div>
+                            </div>
+                            <div class="what__item-content what__item-col">
+                                <h2 class="what__item-title">
+                                    Невозможность существования жилья без коммерции и коммерции
+                                </h2>
+                                <p class="what__item-txt">
+                                    В форуме принимают участие представители власти 
+                                    и банковских структур, руководители девелоперских 
+                                    и строительных компаний, собственники жилой недвижимости со всей России, а также стран СНГ.
+                                    В форуме принимают участие представители власти 
+                                    и банковских структур, руководители девелоперских 
+                                    и строительных компаний, собственники жилой недвижимости со всей России, а также стран СНГ.
+                                </p>
+                                <p class="what__item-txt">
+                                    В форуме принимают участие представители власти 
+                                    и банковских структур, руководители девелоперских 
+                                    и строительных компаний, собственники жилой недвижимости со всей России, а также стран СНГ.
+                                    В форуме принимают участие представители власти 
+                                    и банковских структур, руководители девелоперских 
+                                    и строительных компаний, собственники жилой недвижимости со всей России, а также стран СНГ.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="partners">
+            <div class="container">
+                <div class="partners__block">
+                    <h2 class="partners__title">
+                        Партнеры
+                    </h2>
+                    <div class="partners__row">
+                        <div class="partners__item">
+                            <div class="partners__item-image">
+                                <img src="<%=require('@img/partners-1.png') %>" alt="">
+                            </div>
+                            <div class="partners__item-title">
+                                Генеральный партнер
+                            </div>
+                        </div>
+                        <div class="partners__item">
+                            <div class="partners__item-image">
+                                <img src="<%=require('@img/partners-2.png') %>" alt="">
+                            </div>
+                            <div class="partners__item-title">
+                                Официальный партнер
+                            </div>
+                        </div>
+                        <div class="partners__item">
+                            <div class="partners__item-image">
+                                <img src="<%=require('@img/partners-3.png') %>" alt="">
+                            </div>
+                            <div class="partners__item-title">
+                                Партнер сессии
+                            </div>
+                        </div>
+                        <div class="partners__item">
+                            <div class="partners__item-image">
+                                <img src="<%=require('@img/partners-4.png') %>" alt="">
+                            </div>
+                            <div class="partners__item-title">
+                                Партнер
+                            </div>
+                        </div>
+                        <div class="partners__item">
+                            <div class="partners__item-image">
+                                <img src="<%=require('@img/partners-5.png') %>" alt="">
+                            </div>
+                            <div class="partners__item-title">
+                                Партнер
+                            </div>
+                        </div>
+                    </div>
+                    <div class="partners__btn-wrapper">
+                        <button class="partners__btn popup-btn" data-popup="modal-partner">
+                            Стать партнером
+                        </button>
+                    </div>
+                </div>
+                <div class="partners__block partners__block_media partners-media">
+                    <h2 class="partners__title">
+                        Медиа-партнеры
+                    </h2>
+                    <div class="partners-media__row">
+                        <div class="partners-media__item">
+                            <img src="<%=require('@img/partners-media-1.png') %>" alt="">
+                        </div>
+                        <div class="partners-media__item">
+                            <img src="<%=require('@img/partners-media-2.png') %>" alt="">
+                        </div>
+                        <div class="partners-media__item">
+                            <img src="<%=require('@img/partners-media-3.png') %>" alt="">
+                        </div>
+                        <div class="partners-media__item">
+                            <img src="<%=require('@img/partners-media-4.png') %>" alt="">
+                        </div>
+                        <div class="partners-media__item">
+                            <img src="<%=require('@img/partners-media-5.png') %>" alt="">
+                        </div>
+                        <div class="partners-media__item">
+                            <img src="<%=require('@img/partners-media-6.png') %>" alt="">
+                        </div>
+                        <div class="partners-media__item">
+                            <img src="<%=require('@img/partners-media-7.png') %>" alt="">
+                        </div>
+                        <div class="partners-media__item">
+                            <img src="<%=require('@img/partners-media-8.png') %>" alt="">
+                        </div>
+                        <div class="partners-media__item">
+                            <img src="<%=require('@img/partners-media-9.png') %>" alt="">
+                        </div>
+                        <div class="partners-media__item">
+                            <img src="<%=require('@img/partners-media-10.png') %>" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="media">
+            <div class="container">
+                <h2 class="media__title">
+                    Отчет 2021
+                </h2>
+                <div class="media__slider">
+                    <div class="media__slider-item">
+                        <a class="media__slider-image media__slider-image_video popup-youtube" href="https://www.youtube.com/watch?v=BHACKCNDMW8" rel="nofollow">
+                            <img src="<%=require('@img/media-1.jpg') %>" alt="">
+                        </a>
+                    </div>
+                    <div class="media__slider-item">
+                        <div class="media__slider-image">
+                            <img src="<%=require('@img/media-1.jpg') %>" alt="">
+                        </div>
+                    </div>
+                    <div class="media__slider-item">
+                        <div class="media__slider-image">
+                            <img src="<%=require('@img/media-1.jpg') %>" alt="">
+                        </div>
+                    </div>
+                    <div class="media__slider-item">
+                        <div class="media__slider-image">
+                            <img src="<%=require('@img/media-1.jpg') %>" alt="">
+                        </div>
+                    </div>
+                    <div class="media__slider-item">
+                        <div class="media__slider-image">
+                            <img src="<%=require('@img/media-1.jpg') %>" alt="">
+                        </div>
+                    </div>
+                    <div class="media__slider-item">
+                        <div class="media__slider-image">
+                            <img src="<%=require('@img/media-1.jpg') %>" alt="">
+                        </div>
+                    </div>
+                    <div class="media__slider-item">
+                        <div class="media__slider-image">
+                            <img src="<%=require('@img/media-1.jpg') %>" alt="">
+                        </div>
+                    </div>
+                    <div class="media__slider-item">
+                        <div class="media__slider-image">
+                            <img src="<%=require('@img/media-1.jpg') %>" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="media__nav">
+                    <div class="media__nav-item">
+                        <div class="media__nav-image media__nav-image_video">
+                            <img src="<%=require('@img/media-1.jpg') %>" alt="">
+                        </div>
+                    </div>
+                    <div class="media__nav-item">
+                        <div class="media__nav-image">
+                            <img src="<%=require('@img/media-1.jpg') %>" alt="">
+                        </div>
+                    </div>
+                    <div class="media__nav-item">
+                        <div class="media__nav-image">
+                            <img src="<%=require('@img/media-1.jpg') %>" alt="">
+                        </div>
+                    </div>
+                    <div class="media__nav-item">
+                        <div class="media__nav-image">
+                            <img src="<%=require('@img/media-1.jpg') %>" alt="">
+                        </div>
+                    </div>
+                    <div class="media__nav-item">
+                        <div class="media__nav-image">
+                            <img src="<%=require('@img/media-1.jpg') %>" alt="">
+                        </div>
+                    </div>
+                    <div class="media__nav-item">
+                        <div class="media__nav-image">
+                            <img src="<%=require('@img/media-1.jpg') %>" alt="">
+                        </div>
+                    </div>
+                    <div class="media__nav-item">
+                        <div class="media__nav-image">
+                            <img src="<%=require('@img/media-1.jpg') %>" alt="">
+                        </div>
+                    </div>
+                    <div class="media__nav-item">
+                        <div class="media__nav-image">
+                            <img src="<%=require('@img/media-1.jpg') %>" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="media__button-wrapper">
+                    <a href="" class="media__button">
+                        Смотреть всё
+                        <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.18893 4.99998L1.02394e-05 1.01042L1.06091 0L5.78028 4.49477C5.92096 4.62876 6 4.81049 6 4.99998C6 5.18947 5.92096 5.3712 5.78028 5.50519L1.0609 10L0 8.98958L4.18893 4.99998Z" fill="white"/>
+                        </svg>                            
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="news">
+            <div class="container">
+                <h2 class="news__title">
+                    Новости
+                </h2>
+                <div class="news__row blog">
+                    <div class="blog__item">
+                        <div class="blog__item-image popup-btn" data-popup="modal-article">
+                            <img src="<%=require('@img/blog-1.jpg') %>" alt="">
+                        </div>
+                        <div class="blog__item-title popup-btn" data-popup="modal-article">
+                            Изменение коммерческой недвижимости следствие
+                        </div>
+                        <p class="blog__item-txt">
+                            В форуме принимают участие представители власти и банковских структур, руководители девелоперских и строительных компаний компаний
+                        </p>
+                        <span class="blog__item-date">
+                            21 января 2022
+                        </span>
+                    </div>
+                    <div class="blog__item">
+                        <div class="blog__item-image popup-btn" data-popup="modal-article">
+                            <img src="<%=require('@img/blog-2.jpg') %>" alt="">
+                        </div>
+                        <div class="blog__item-title popup-btn" data-popup="modal-article">
+                            Изменение коммерческой недвижимости следствие
+                        </div>
+                        <p class="blog__item-txt">
+                            В форуме принимают участие представители власти и банковских структур, руководители девелоперских и строительных компаний компаний
+                        </p>
+                        <span class="blog__item-date">
+                            21 января 2022
+                        </span>
+                    </div>
+                    <div class="blog__item">
+                        <a href="" class="blog__item-image">
+                            <img src="<%=require('@img/blog-3.jpg') %>" alt="">
+                        </a>
+                        <a href="" class="blog__item-title">
+                            Изменение коммерческой недвижимости следствие
+                        </a>
+                        <p class="blog__item-txt">
+                            В форуме принимают участие представители власти и банковских структур, руководители девелоперских и строительных компаний компаний
+                        </p>
+                        <span class="blog__item-date">
+                            21 января 2022
+                        </span>
+                    </div>
+                </div>
+                <div class="news__button-wrapper">
+                    <a href="" class="news__button">
+                        Все новости 
+                        <i>
+                            <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.18893 4.99998L1.02394e-05 1.01042L1.06091 0L5.78028 4.49477C5.92096 4.62876 6 4.81049 6 4.99998C6 5.18947 5.92096 5.3712 5.78028 5.50519L1.0609 10L0 8.98958L4.18893 4.99998Z" fill="#18476B"/>
+                            </svg>                            
+                        </i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="container">
+                <h2 class="contacts__title">
+                    Контакты
+                </h2>
+                <div class="contacts__row">
+                    <div class="contacts__item">
+                        <div class="contacts__image">
+                            <img src="<%=require('@img/contacts-1.jpg') %>" alt="">
+                        </div>
+                        <div class="contacts__position">
+                            Руководитель ассоциации REPA
+                        </div>
+                        <div class="contacts__name">
+                            Юлия Солодовникова
+                        </div>
+                        <a href="mailto: julia@repa-pr.ru" class="contacts__mail">julia@repa-pr.ru</a> <br>
+                        <a href="tel:+7 (499) 394 2960" class="contacts__phone">+7 (499) 394 2960</a>
+                    </div>
+                    <div class="contacts__item">
+                        <div class="contacts__image">
+                            <img src="<%=require('@img/contacts-2.jpg') %>" alt="">
+                        </div>
+                        <div class="contacts__position">
+                            Руководитель проекта
+                        </div>
+                        <div class="contacts__name">
+                            Евгения Воронина
+                        </div>
+                        <a href="mailto: voronina@repa-pr.ru" class="contacts__mail">voronina@repa-pr.ru</a> <br>
+                        <a href="tel:+ 7 (965) 103 9779" class="contacts__phone">+ 7 (965) 103 9779</a>
+                    </div>
+                    <div class="contacts__item">
+                        <div class="contacts__image">
+                            <img src="<%=require('@img/contacts-3.jpg') %>" alt="">
+                        </div>
+                        <div class="contacts__position">
+                            По вопросам участия спикеров
+                        </div>
+                        <div class="contacts__name">
+                            Анна Борзенкова
+                        </div>
+                        <a href="mailto: media@repa-pr.ru" class="contacts__mail">media@repa-pr.ru</a> <br>
+                        <a href="tel:+7 (925) 245 1325" class="contacts__phone">+7 (925) 245 1325</a>
+                    </div>
+                    <div class="contacts__item">
+                        <div class="contacts__image">
+                            <img src="<%=require('@img/contacts-4.jpg') %>" alt="">
+                        </div>
+                        <div class="contacts__position">
+                            По вопросам спонсорства <br>
+                            и партнерства
+                        </div>
+                        <div class="contacts__name">
+                            Маргарита Шеховцова
+                        </div>
+                        <a href="mailto: julia@repa-pr.ru" class="contacts__mail">julia@repa-pr.ru</a> <br>
+                        <a href="tel:+7 (499) 394 2960" class="contacts__phone">+7 (499) 394 2960</a>
+                    </div>
+                    <div class="contacts__item">
+                        <div class="contacts__image">
+                            <img src="<%=require('@img/contacts-5.jpg') %>" alt="">
+                        </div>
+                        <div class="contacts__position">
+                            Регистрация и участие в форуме
+                        </div>
+                        <div class="contacts__name">
+                            Елена Суранова
+                        </div>
+                        <a href="mailto: lena@repa-pr.ru" class="contacts__mail">lena@repa-pr.ru</a> <br>
+                        <a href="tel:+7 (910) 461 4961" class="contacts__phone">+7 (910) 461 4961</a>
+                    </div>
+                    <div class="contacts__item">
+                        <div class="contacts__image">
+                            <img src="<%=require('@img/contacts-6.jpg') %>" alt="">
+                        </div>
+                        <div class="contacts__position">
+                            Аккредитация сми <br>
+                            и медиапространство
+                        </div>
+                        <div class="contacts__name">
+                            Софья Антипова
+                        </div>
+                        <a href="mailto: sofia@repa-pr.ru" class="contacts__mail">sofia@repa-pr.ru</a> <br>
+                        <a href="tel:+7 (985) 545 0771" class="contacts__phone">+7 (985) 545 0771</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+  </main>
+
+  <%= require('@parts/footer.ejs')() %>
