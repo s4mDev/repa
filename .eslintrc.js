@@ -19,7 +19,7 @@ module.exports = {
 		'no-use-before-define': 0,
 		'func-names': 0,
 		'prefer-arrow-callback': 0,
-		'linebreak-style': ['error', 'windows'],
+		'linebreak-style': ['error', 'unix'],
 		'indent': ['error', 4],
 		'@typescript-eslint/indent': ['error', 4],
 		'no-var': 0,

@@ -53,12 +53,26 @@ $('.packages__slider').slick({
       ]
 });
 
-$('.what__slider').slick({
+const sliderWhat = $('.what__slider');
+const sliderLenght = $('.what__slider > div').length - 1;
+let currentSlider;
+console.log(sliderLenght);
+
+sliderWhat.slick({
     dots: true,
     infinite: false,
     slidesToShow: 1,
     speed: 500,
     arrows: true,
+});
+
+sliderWhat.mousewheel(function(e) {
+  e.preventDefault();
+  if (e.deltaY < 0) {
+    $(this).slick('slickNext');
+  } else {
+    $(this).slick('slickPrev');
+  }
 });
 
 $('.media__slider').slick({

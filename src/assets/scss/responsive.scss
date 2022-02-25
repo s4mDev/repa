@@ -1,3 +1,16 @@
+@media(max-width: 1400px) {
+    .what__slider {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .what .slick-prev {
+        left: 0;
+    }
+    .what .slick-next {
+        right: 0;
+    }
+}
+
 @media(max-width: 1300px) {
     .container {
         max-width: 1199px;
@@ -451,6 +464,13 @@
     }
     .gallery-page {
         padding-bottom: 40px;
+    }
+    .what__slider {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .what .slick-prev,.what .slick-next {
+        display: none;
     }
 }
 
